@@ -1,0 +1,74 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343334;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.arrow {
+  float: right;
+  width: 50px;
+}
+
+.location {
+  width: 420px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 4% 0 1% 0;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 4%;
+}
+
+h1, h3 {
+  display: block;
+  padding-left: 3%;
+}
+
+.arrow-left {
+  background-color: black;
+  padding: 1%;
+  width: 100%
+}
+
+.content {
+  width: 300px;
+}
+
+.content, .arrow {
+  display: inline;
+}
+
+.location:hover {
+  background-color: darkgray;
+}
+
+.container {
+  margin: 0px auto 30px auto;
+  width: 420px;
+  padding: 0px 10px 0% 10px;
+  background-color: #343334;
+}
+
+nav {
+  position: fixed;
+  width: 420px;
+}
+
+.restaurant-list {
+  padding-top: 20px;
+}
