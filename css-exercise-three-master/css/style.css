@@ -11,6 +11,8 @@ body {
 .arrow {
   float: right;
   width: 50px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 .location {
@@ -46,11 +48,11 @@ h1, h3 {
 }
 
 .content {
-  width: 300px;
+  width: 320px;
 }
 
 .content, .arrow {
-  display: inline;
+  display: inline-block;
 }
 
 .location:hover {
